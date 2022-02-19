@@ -14,3 +14,17 @@
     color: rgb(250, 62, 62);
     font-size: 20px;
 }
+
+.logo{
+    weight: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+.estilo{
+    
+    background-image: url(https://cdn.pixabay.com/photo/2021/11/13/18/02/lake-6791971_960_720.jpg);
+    padding-bottom: 40px;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
