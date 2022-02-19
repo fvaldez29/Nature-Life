@@ -4,6 +4,7 @@
     justify-content: flex-end;
     margin: 0;
     list-style: none;
+    font-family: 'Roboto Mono', monospace;
     background-color: aquamarine;
 }
 .menu a{
