@@ -1,30 +1,67 @@
-.menu{
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    background-color:#1BCEE9;
+  }
+  .logo{
+    height: 100px;
+    width: 100px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+  }
+  .menu{
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    margin: 0;
+    align-content: center;
+    background-color: #1BCEE9;
     list-style: none;
-    font-family: 'Roboto Mono', monospace;
-    background-color: aquamarine;
-}
-.menu a{
+  }
+  .menu a{
     display: block;
+    padding: 20px;
     text-decoration: none;
-    padding: 50px;
-    color: rgb(250, 62, 62);
-    font-size: 20px;
+    color: white;
+    font-family: serif;
+    font-size: 23px;
+  }
+  a:hover{
+      color:aquamarine;
+  }
+a:link {
+color:cadetblue;
 }
-
-.logo{
-    weight: 100px;
-    height: 100px;
-    border: 1px solid red;
+.main-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    justify-content: flex-start;
+    padding:0;
 }
-.estilo{
-    
-    background-image: url(https://cdn.pixabay.com/photo/2021/11/13/18/02/lake-6791971_960_720.jpg);
-    padding-bottom: 40px;
-    margin: 0;
+.main-container{
+    background-image:url(../img/main.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 800px;
+}
+.titulo{
+    display: block;
+    font-family: 'Roboto', monospace;
+    white-space: nowrap;
+    width: 12ch;
+    opacity: 0.8;
+    padding: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 8px 1px 9px rgba(250, 233, 79, 0.75);
+    font-size: 5em;
+    color: rgb(240, 234, 234);
+
+}
+
+.posiciones{
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
 }
