@@ -39,29 +39,27 @@ color:cadetblue;
     padding:0;
 }
 .main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image:url(../img/main.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
+    margin: 0;
 }
 .titulo{
     display: block;
     font-family: 'Roboto', monospace;
     white-space: nowrap;
-    width: 12ch;
     opacity: 0.8;
-    padding: 16px;
     font-weight: bold;
     text-decoration: underline;
     text-shadow: 8px 1px 9px rgba(250, 233, 79, 0.75);
-    font-size: 5em;
+    font-size: 6em;
     color: rgb(240, 234, 234);
 
 }
-
-.posiciones{
-    display: flex;
-    text-align: center;
-    justify-content: flex-start;
-    align-items: center;
+.boton-container{
+  display: flex;
 }
