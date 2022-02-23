@@ -107,14 +107,16 @@ p{
   margin: 0;
 }
 .container-pies{
-  text-align: center;
-background-color: #1BCEE9;
+display: flex;
+justify-content: center;
+background-color: #1f9fa8;
 color: white;
-margin: 23px;
+margin: 0px;
 }
 .container-pies .copy{
   display: block;
- 
+  margin-top: 25px;
+  margin-bottom: 25px;
   font-size: 23px;
 }
 
