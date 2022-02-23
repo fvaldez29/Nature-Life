@@ -62,4 +62,9 @@ color:cadetblue;
 }
 .boton-container{
   display: flex;
+  width: 26px;
+}
+.cuerpo-container{
+  display: flex;
+  flex: 1 auto;
 }
