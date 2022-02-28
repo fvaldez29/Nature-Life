@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+}
 .header-container{
     display: flex;
     justify-content: space-between;
@@ -57,7 +62,7 @@ color:cadetblue;
     font-weight: bold;
     text-decoration: underline;
     text-shadow: 8px 1px 9px rgba(250, 233, 79, 0.75);
-    font-size: 6em;
+    font-size: 90%;
     color: rgb(240, 234, 234);
 
 }
